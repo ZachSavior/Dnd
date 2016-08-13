@@ -33,7 +33,6 @@
 		<feature>
 			<name>Dragoon Style</name>	
 			<text>While using a polearm if you are attacked in any manner you are aware of you may add +2 to your AC
-      <modifier category="bonus">armor class +2</modifier>
 		</feature>
 	</autolevel>
 	<autolevel level="2">
@@ -78,7 +77,6 @@
   	<feature>
 			<name>Strong Legs</name>
 			<text>Starting at 5th level, your speed increases by 10 feet, thus increasing your jump distance.</text>
-      <modifier category="bonus">speed +10</modifier>
     </feature>
     <feature>
       <Name>Furious Landing</name>
