@@ -34,6 +34,7 @@
 			<name>Dragoon Style</name>	
 			<text>While using a polearm if you are attacked in any manner you are aware of you may add +2 to your AC
 		</feature>
+
 	</autolevel>
 	<autolevel level="2">
    <feature>
