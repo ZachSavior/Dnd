@@ -1,0 +1,152 @@
+<class>
+	<name>Dragoon</name>
+	<hd>10</hd>
+	<Proficiency>Strength, Dexterity</Proficiency>
+	<spellAbility>8+Str+Prof</spellAbility>
+	<autolevel level="1">
+		<feature>
+			<name>Proficiencies</name>
+			<text>Armor: light armor, medium armor, heavy armor  </text>
+			<text /><!--this is a line break in the text block-->
+			<text>Weapons: simple weapons, polearms, lances  </text>
+			<text />
+			<text>Tools: vehicles</text>
+			<text />
+			<text>Saving Throws: Strength, and Dexterity  </text>
+			<text />
+			<text>Skills: Choose two from athletics, acrobatics, survival, intimidation, performance, perception</text>
+		</feature>
+		<feature>
+			<name>Starting Equipment</name>
+			<text>You start with the following equipment, in addition to the equipment granted by your background.</text>
+			<text />
+			<text>• (a) a polearm of your choice (b) a lance  </text>
+			<text />
+			<text>• (a) half plate armor (b) plate armor  </text>
+			<text />
+			<text>• (a) an explorers pack (b) an adventurers pack</text>
+		</feature>
+		<feature>
+			<name>Jump Attack</name>
+			<text>In battle you harbor strength beyond normal limits within your limbs allowing you to leap into battle causing damage as you plunge your weapons into foes from above like a dragon pouncing upon its prey. At the beginning of your turn you can choose to use the Jump attack as a full turn action, provided that you have the space. You choose a target within your threat range, (movement+weapon range) and instantly move over to them with a great leap, after the attack you land on a space agacent to your target regardless if that space is further than your normal movement speed. You can only use this action a number of times equal to your Str. Modifier before you must take a short or long rest. At the beginning of your turn you can choose to use the Jump attack as a full turn action, provided that you have the space. You can only use this action a number of times equal to your Str. Modifier before you must take a short or long rest. Jump Attack can only be used with Polearms and Lances, and this attack ignores the Special Property of lances, meaning the attack does not receive disadvantage. You do not provoke attacks of oppertunity durning the leap unless a creature is large or larger.</text>
+		</feature>
+		<feature>
+			<name>Dragoon Style</name>	
+			<text>While using a polearm if you are attacked in any manner you are aware of you may add +2 to your AC
+      <modifier category="bonus">armor class +2</modifier>
+		</feature>
+	</autolevel>
+	<autolevel level="2">
+   <feature>
+			<name>Defender of the Small</name>
+			<text>Starting at 2nd level, you and your weapon are seen as beacons of hope in dark times for peoples around the world when you appear in town as your profession marks you a slayer of giant beasts and monsters. You have advantage with attack rolls against large or larger creatures, this feature is uneffected by the Size Doesn't Matter, feature granted in the Battalion Buster Academy.</text>
+    </feature
+	</autolevel>
+	<autolevel level="3">
+		<feature>
+			<name>Dragoon Lancer</name>
+			<text>Starting at 3rd level, you can weild a lance ignoring the Special property, though it still behaves as a two handed weapon.</text>
+		</feature>
+		<feature optional="YES">
+			<name>Monster Hunter Academy</name>
+			<text>Since the origin of the first dragoon, their have been academies created to forge them into giant slaying heros. It has been a school which the original techniques have been passed down for generation after generation, and refined for centuries.</text>
+		</feature>
+  	<feature optional="YES">
+			<name>Battalion Buster</name>
+			<text>Yours is a path that lies at the heart of battle, big or small you appear like a lightning bolt striking the battle field, only you strike more than just once.</text>
+		</feature>
+		<feature optional="YES">
+			<name>Battalion Buster: Twin Bolts</name>
+			<text>At 3rd level when using a Jump Attack, you can execute a Comet Landing, in addition to the original attack, make an additional Jump Attack against another target, within the reach of your weapon from the first target's space.</text>
+		</feature>
+		<feature optional="YES">
+      <name>Monster Hunter: Dragoon Steeled resolve</name>
+      <text>Starting at 3rd level, you gain resistance to two of the following damage types of your choice: Fire, Cold, Lightning, Thunder.</text>
+    </feature>
+	</autolevel>
+	<autolevel level="4">
+    <feature>
+			<name>Ability Score Improvement</name>
+			<text>When you reach 4th level you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+		</feature>
+	</autolevel>
+	<autolevel level="5">
+		<feature>
+			<name>Extra Attack</name>
+			<text>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</text>
+		</feature>
+  	<feature>
+			<name>Strong Legs</name>
+			<text>Starting at 5th level, your speed increases by 10 feet, thus increasing your jump distance.</text>
+      <modifier category="bonus">speed +10</modifier>
+    </feature>
+    <feature>
+      <Name>Furious Landing</name>
+      <text>Starting at 5th level, Immediately after a jump attack you may make a bonus attack against any creature within reach.</text>
+    </feature>
+	</autolevel>
+	<autolevel level="6">
+    <feature>
+			<name>Monster's Bane</name>
+			<text>Your attacks with Polearms count as Magical for the sake of weekness and resistances.</text>
+		</feature>
+    <feature>
+      <name>The Bigger They Are</name>
+      <text>Beginning at 6th level, when you fight a creature Large or larger, your crit range becomes 19-20.</text>
+    </feature>
+    <feature optional="YES">
+			<name>Battalion Breaker: Size Doesn't Marrer</name>
+			<text>Beginning at 6th level, all abilities that state, they function on a Large or Larger monster, also are applicable on Medium Sized creatures as well with the exception of Defender of the Small.</text>
+		</feature>
+    <feature optional="YES">
+			<name>Monster Hunter: Know Thy Enemy's Weakness</name>
+			<text>At 6th level, you can re-roll any 1s and 2s on all damage dice assosiated with a critical strike you preform while using a Polearm.</text>
+    </feature>
+	</autolevel>
+	<autolevel level="7">
+    <feature>
+			<name>Equal and Oposite Reaction</name>
+			<text>By 7th level, your aim for your jumps have improved greatly allowing you to use your lance to preform a specific action at the end of a Jump attack.</text>
+			<text>    The you can choose one of three effects. Target must succeed on a strength saving throw or be knocked prone. Target must succeed on a Dexterity saving throw or be disarmed. Target must succeed on a constitution saving throw or be stunned. All saving throws are against the Dragoons Save</text>
+		</feature>
+	</autolevel>
+	<autolevel level="8">
+    
+	</autolevel>
+	<autolevel level="9">
+    
+	</autolevel>
+	<autolevel level="10">
+    
+	</autolevel>
+	<autolevel level="11">
+    
+	</autolevel>
+	<autolevel level="12">
+    
+	</autolevel>
+	<autolevel level="13">
+    
+	</autolevel>
+	<autolevel level="14">
+    
+	</autolevel>
+	<autolevel level="15">
+    
+	</autolevel>
+	<autolevel level="16">
+    
+	</autolevel>
+	<autolevel level="17">
+    
+	</autolevel>
+	<autolevel level="18">
+    
+	</autolevel>
+	<autolevel level="19">
+    
+	</autolevel>
+	<autolevel level="20">
+    
+	</autolevel>
+</class>
