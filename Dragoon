@@ -34,7 +34,6 @@
 			<name>Dragoon Style</name>	
 			<text>While using a polearm if you are attacked in any manner you are aware of you may add +2 to your AC
 		</feature>
-
 	</autolevel>
 	<autolevel level="2">
    <feature>
@@ -111,42 +110,116 @@
 		</feature>
 	</autolevel>
 	<autolevel level="8">
-    
+    <feature>
+			<name>Ability Score Improvement</name>
+			<text>When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+			<text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="9">
-    
+    <feature>
+			<name>First Strike</name>
+			<text>Beginning at 9th level, you've learned to leap into the air at a moments notice, gaining advantage on initive.</text>
+		</feature>
+		<feature>
+			<name>Aerial Takedown</name>
+			<text>Starting at 9th level, when fighting opponents with a flying speed, who are in the air, you may execute an Aerial Takedown. Making a melee attack, including a Jump Attack, against the greature, it must succeed on a Str. save to remain in the air, and keep its flying speed, on a failed save they fall to the ground and take double damage from the attack. A Dragoon can only use this ability twice before having to finish a short or long rest.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="10">
-    
+    <feature optional="YES">
+			<name>Battalion Breaker: Shock Wave</name>
+			<text>Beginning at 10th level, when landing a Jump Attack, upon landing on a foe, you create a thunderous shockwave that pushes any creatures within 10ft. of the original target of the Jump Attack that fail to pass a Str. Save another 10ft away.</text>
+			<text>    The Creature you land on suffers disadvantage on any save related to the Equal and Oposite Reaction feature.</text>
+		</feature>
+		<feature optional="YES">
+			<name>Monster Hunter: Elemental Strike</name>
+			<text>Beginning at 10th level, you can use a bonus action to inbue your polearm with an energy type: Fire, Lightning, Cold, or Thunder. While imbued with said energy the weapon does an additional 1d6 damage of that type for 1 minute, and jump attacks that hit cause enemies within 5ft of the target to take 1d6 of the energy type in damage. You may use this bonus action before making your Jump Attack.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="11">
-    
+    <feature>
+			<name>Savior of the Small</name>
+			<text>Starting at 11th level, Duty calls and as if by your Jump Attack feature, to instead of attack take one willing creature with you to any space within your movement speed.</text>
+			<text>    Creature must be of your size or lower, and you both do not incite attacts of oppertunity, once the movement ends the creature is placed in an adjacent space. Allies within reach of your Polearm gain the benifit of your Dragoon Style feature</text>
+		</feature>
 	</autolevel>
 	<autolevel level="12">
-    
+    <feature>
+			<name>Ability Score Improvement</name>
+			<text>When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+			<text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+		</feature>
+		<feature>
+			<name>Improved Jump Attack</name>
+			<text>You may Jump attack two times more than your Str. Modifier.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="13">
-    
+    <feature>
+			<name>Lancet Strike</name>
+			<text>You now feel revitalized when you strike an enemy down with this new technique learned at 13th level. In place of one of your normal attacks for your turn you may make a Lancet Strike, allowing you to restore hit points equal to the damage dealt. You cannot use this with a Jump Attack, and you can only use this a number of times equal to your Con. Modifier per short rest.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="14">
-    
+    <feature optional="YES">
+			<name>Battalion Buster: Parry Master</name>
+			<text>Starting at 14th level, when you are surrounded by two or more enemies you gain a +4 to your AC, Jumping is a dangerous art in the battlefield one wrong move and you'll be surrounded. With this technique this is no longer a worry for experiened dragoons.</text>
+		</feature>
+		<feature optional="YES">
+			<name>Monster Hunter: Phlebotomize</name>
+			<text>Starting at 14th level, you can spot and accurately guess the arteries and veins of your enemies allowing you to strike at them with presise thrusts causing massive bleeding damage. When you make an attack you can use this skill to cause 1d10 damage in addition to your normal damage, and if the creature fails a Con. Save cause 2d6 bleeding damage every turn until the creature has either died or receives magical healing or succeeds on a Medicine DC 15 check. Cannot be used on creatures without vital organs and creatures that the Dragoon is unfamiliar with gain advantage on this save unless they are Large or Larger.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="15">
-    
+    <feature>
+			<name>Dragonic Ally</name>
+			<text>Beginning at 15th level, power gifted from the dragons has drawn draconic allies to you, you gain either a Wyrmling companion whos color is up to you, or a Psuedodragon companion. At 20th level you may aquire another companion.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="16">
-    
+    <feature>
+			<name>Ability Score Improvement</name>
+			<text>When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+			<text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+		</feature>
+		<feature>
+			<name>Litany of the Dragoon</name>
+			<text>You can unleash a mighty battle cry, increasing all allies within earshot's critical hit range by one. This effect lasts for one round and you are uneffected by it. You can only use this feature once per long rest.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="17">
-    
+    <feature>
+			<name>Comet Crit</name>
+			<text>Your natural crit range when using a jump attack becomes 18-20 this cannot be increased by any method, use this range unless another effect gives you larger, the effects do not stack.</text>
+		</feature>
+		<feature>
+			<name>Tempest Bounds</name>
+			<text>Your movement becomes 80 ft.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="18">
-    
+    <feature>
+			<name>Reflexive Jump</name>
+			<text>Beginning at 18th level, the dragoon has mastered the Jump Attack. Once per short rest when attacked by any means that you are aware of you may launch a Jump attack before the attack hits as a reaction, you take no damage and experience no effect of the attack.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="19">
-    
+    <feature>
+			<name>Ability Score Improvement</name>
+			<text>When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</text>
+			<text>    If your DM uses the optional Feats, you can instead take a feat.</text>
+		</feature>
 	</autolevel>
 	<autolevel level="20">
-    
+    <feature>
+			<name>Azure Dragoon</name>
+			<text>At 20th level, you embody the power of the Azure Dragoon, the first Dragoon of many. Your Strength score increases by 4 and the natural maximum for that score is now 24. Your Draconic ally's are also effected by this feature as well.</text>
+			<modifier category="ability score">strength +4</modifier>
+		</feature>
+		<feature>
+			<name>Unlimited Jump Attacks</name>
+			<text>At 20th level, there is no limit to the number of times you may Jump Attack.</text>
+		</feature>
 	</autolevel>
 </class>
